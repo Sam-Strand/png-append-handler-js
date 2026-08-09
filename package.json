@@ -1,0 +1,30 @@
+{
+  "name": "png-append-handler",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sam-Strand/png-append-handler-js.git"
+  },
+  "author": "Саадовский М.К.",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Sam-Strand/png-append-handler-js/issues"
+  },
+  "homepage": "https://github.com/Sam-Strand/png-append-handler-js#readme",
+  "type": "module",
+  "exports": {
+    ".": {
+      "development": "./src/index.js",
+      "import": "./dist/png-append-handler.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "devDependencies": {
+    "vite": "^8.2.1",
+    "vite-plugin-dts": "^5.0.3"
+  }
+}
