@@ -2,7 +2,7 @@
   "name": "png-append-handler",
   "version": "1.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host 0.0.0.0",
     "build": "vite build"
   },
   "repository": {
