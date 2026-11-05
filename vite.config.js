@@ -8,7 +8,6 @@ export default defineConfig({
     build: {
         lib: {
             entry: 'src/index.js',
-            name: 'png-append-handler',
             formats: ['es']
         },
         rollupOptions: {
